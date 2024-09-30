@@ -17,8 +17,8 @@
             a.getStudentCount = getStudentCount;
 
             let b = {
-                korName: "웹프로그래밍",
-                engName: "Web Programming",
+                korName: "클라우드컴퓨팅",
+                engName: "Cloud Computing",
                 classCode: "V024003",
                 nStudent: 0,
                 register: function(){this.nStudent++;},
@@ -41,6 +41,7 @@
         <script>
             document.write("<h3>1. 직접 객체 만들기</h3>");
             document.write("교과목 이름 = " + a.korName + "<br>");
+            document.write("교과목 영문 이름 = " + a.engName + "<br>");
             document.write("등록 학생 수 = " + a.nStudent + "<br>");
             a.register();
             document.write("after register, 등록 학생 수 = " + a.nStudent + "<br>");
@@ -48,14 +49,16 @@
 
             document.write("<h3>2. 리터럴 표기법</h3>");
             document.write("교과목 이름 = " + b.korName + "<br>");
+            document.write("교과목 영문 이름 = " + b.engName + "<br>");
             document.write("등록 학생 수 = " + b.nStudent + "<br>");
             b.register();
             document.write("after register, 등록 학생 수 = " + b.nStudent + "<br>");
             document.write("<hr>");
 
-            let C = new c("웹프로그래밍", "Web Programming", "V024003", "0")
+            let C = new c("프로그래밍언어론", "Programming Langauages", "V024003", "0")
             document.write("<h3>3. Prototype</h3>");
             document.write("교과목 이름 = " + C.korName + "<br>");
+            document.write("교과목 영문 이름 = " + C.engName + "<br>");
             document.write("등록 학생 수 = " + C.nStudent + "<br>");
             C.register();
             document.write("after register, 등록 학생 수 = " + C.nStudent + "<br>");
