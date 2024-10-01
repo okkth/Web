@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>라면을 끓이는 순서</title>
+        <meta charset="UTF-8">
+        <script>
+        function f(){
+            let obj = document.getElementById("ol");
+            let newli = document.createElement("li");
+            newli.innerHTML = prompt("라면을 끓이는 순서를 입력하라");
+            obj.appendChild(newli)
+        }
+        </script>
+    </head>
+    <body>
+        <h3>라면을 끓이는 순서</h3>
+        <hr>
+        <ol id = "ol" onclick ="f()" type="A" style="background-color: yellowgreen;">
+            <li>물을 끓인다.</li>
+        </ol>
+    </body>
+</html>
