@@ -6,10 +6,10 @@
     <title>Dom 객체 동적 삽입</title>
     <script>
         function addAnswer(obj, text){
-            let div = document.createElement("div")
+            let div = document.createElement("div");
             div.innerHTML = text;
-            obj.parentElement.appendChild(div)
-            div.addEventListener("click", function(){(this.parentElement.removeChild(div))})
+            obj.parentElement.appendChild(div);
+            div.addEventListener("click", function(){(this.parentElement.removeChild(div))});
         }
 
     </script>
