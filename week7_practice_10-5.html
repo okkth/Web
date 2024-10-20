@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>9-5</title>
+<script>
+        function startClock() {
+                let clock = document.getElementById("clock");
+                timeout(clock);
+        }
+
+        function timeout(obj) {
+                let current = new Date();
+                obj.innerHTML = current.toLocaleTimeString()
+                setTimeout("timeout(clock)", 1000);
+        }
+</script>
+</head>
+<body onload="startClock()">
+<h3>div 태그에 시계 만들기</h3>
+<hr>
+<div id="clock"></div>
+</body>
+</html>
