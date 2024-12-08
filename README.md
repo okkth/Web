@@ -1,0 +1,74 @@
+# Web Programming 실습 코드 모음
+
+- week1 연습
+   - week1.html: 기본 HTML 문서 작성 (ol, ul)
+- week2 연습
+   - week2.html: 표, 링크, 시맨틱 태그, 체크 박스, 라디오 버튼, 콤보 박스 추가
+- week3 연습
+   - week3.html: CSS3 style 공부 (inline block, block, inline)
+- week4 연습
+   - week4_object_gen.html: 객체 생성 3가지 방법 연습 (직접 만들기, 리터럴 표기법, 프로토타입)
+- week5 연습
+   - week5_practice_8-4.html: eval을 이용한 계산
+   - week5_practice_8-6.html: prompt로 입력받은 내용 출력
+   - week5_practice_8-9.html: prompt를 통해 입력받은 내용을 목록에 추가
+   - week5_practice_8-10.html: 클릭으로 정답 추가, 삭제
+- week6 연습
+   - week6_practice_9-2.html: 라디오 버튼 클릭으로 이미지 생성
+   - week6_practice_9-3.html: 입력된 수식 계산
+   - week6_practice_9-6.html: 마우스 휠로 이미지 크기 확대, 축소
+   - week6_practice_9-10.html: 계산기 만들기
+- week7 연습
+   - week7_practice_10-5.html: 페이지 로드 시 현재 시간 표시, 업데이트
+   - week7_practice_10-6.html: 시계 클릭 시 시계가 멈추고 다시 클릭하면 가기 시작
+- week9 연습
+   - week9_practice_12-1-search.html: 이름을 입력하면 세션 스토리지에서 학번을 검색하여 출력
+   - week9_practice_12-1-store.html: 입력된 학번이름을 세션 스토리지에 저장
+   - week9_practice_12-2-search.html: 세션 스토리지에서 품목을 검색하여 개수 출력
+   - week9_practice_12-2-store.html: 품목명과 개수를 세션 스토리지에 저장
+   - week9_practice_12-3-store.html: 제목과 메모를 로컬 스토리지에 저장
+   - week9_practice_12-3-view.html: 로컬 스토리지에 저장된 항목들을 테이블로 출력
+   - week9_practice_12-4-store.html: 일기를 로컬 스토리지에 저장
+   - week9_practice_12-4-view.html: 로컬 스토리지에 저장된 일기 출력
+   - week9_practice_12-5-form.html: 여행지와 음식을 로컬 스토리지에 저장
+   - week9_practice_12-5-view.html: 로컬 스토리지에 저장된 여행지와 음식을 출력
+- week10 연습
+   - week10_ex13-10.html: 웹 워커 timer.js를 사용한 타이머, 버튼 클릭으로 타이머 정지, 재생
+   - timer.js
+   - week10_practice13-6.html: 웹 워커 mul.js를 사용하여 곱셈 계산
+   - mul.js
+   - week10_practice_13-5.html: 웹 워커를 사용하여 점수를 입력받고 학점 계산
+   - week10_practice_13-5.js
+- week11 연습
+   - week11_arrow.js: 화살표 함수 사용 연습
+   - week11_callBack.js: 콜백 함수 사용 연습
+   - week11_forEach.js: forEach 함수 사용 연습
+   - week11_t1.js: 두 변수가 동일한 객체를 참조하는 예시
+   - week11_t3.js: 별도의 객체로 변경되도록 하는 예시
+- week12 연습
+   - week12_ageSum.js: filter, map, reduce을 이용한 나이 합치기
+   - week12_aveScore.js: filter, map, reduce을 이용한 평균 계산
+   - week12_composition.js: 합성 함수 사용 연습
+   - week12_curring.js: 커링 사용 연습
+   - week12_firstClass.js: 일급 함수 사용 연습
+   - week12_funcPr-practice.js: 함수형 프로그래밍 연습
+   - week12_higherOrder.js: 고차 함수 사용 연습
+   - week12_sumUpper80.js: map, reduce를 이용한 점수 합치기
+- week13 연습
+   - week13_event1.js: exit 이벤트 사용 연습
+   - week13_event2.js: tick 이벤트 사용 연습
+   - week13_fs1.js: fs.readFileSync() 사용 연습 (동기)
+   - week13_fs2.js: fs.writeFile() 사용 연습 (비동기)
+   - week13_fs3.js: fs.readFile() 사용 연습 (비동기)
+   - week13_url.js: url 모듈 사용 연습
+   - week13_webServer1.js: http 서버 생성1
+   - week13_webServer2.js: http 서버 생성2
+- week14 연습
+   - app1.js: express 서버 생성
+   - app2.js: html 형식으로 express 서버 생성
+   - app3.js: 미들웨어를 이용한 express 서버 생성
+   - app4.js: get 라우트를 이용한 express 서버 생성
+   - app5.js: send() 메서드를 사용한 express 서버 생성
+   - app6.js: redirect() 메서드를 사용한 express 서버 생성
+   - app7.js: query 파라미터를 추출하여 HTML로 출력하는 express 서버 생성
+   - app8.js: 로그인 페이지 생성
