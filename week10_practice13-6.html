@@ -15,7 +15,7 @@
   <input id="sum" type="text" size="10">
   
   <script>
-    let addWorker = new Worker("add.js"); // 워커 태스크 생성
+    let addWorker = new Worker("mul.js"); // 워커 태스크 생성
 
     function send() { // 워크 태스크에 시작 숫자와 끝 숫자 전송
       let parameters = { // 시작 숫자와 끝 숫자로 구성된 객체
